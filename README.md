@@ -681,28 +681,34 @@ Actividad dejada por el docente en el docente; dentro de ella encontramos a "Ale
 # CAPÍTULO V: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
-En nuestra startup, hemos meticulosamente establecido la configuración de nuestro entorno de desarrollo de software con el objetivo de facilitar una colaboración eficiente y el desarrollo de nuestras aplicaciones. Aquí compartimos las principales herramientas y configuraciones que empleamos:
+Principales herramientas y configuraciones empleadas para el registro de versiones y ejecución:
 
-- Entornos de Desarrollo Integrados (IDEs): Principalmente utilizamos dos IDEs para nuestro desarrollo de software. En primer lugar, Visual Studio Code, que nos brinda un entorno altamente personalizable y es esencial para nuestros desarrolladores de frontend.
-- Herramientas de Colaboración: En lo que respecta a la colaboración en el código, confiamos en GitHub, una plataforma ampliamente reconocida y utilizada en la comunidad de desarrollo.
-- Diseño de Bases de Datos y Diagramas: Para diseñar nuestras bases de datos y crear diversos diagramas, dependemos de Start UML y Vertabelo. Estas herramientas nos ayudan a visualizar y planificar nuestras estructuras de datos y flujos de trabajo de manera efectiva.
+- Entornos de Desarrollo Integrados (IDEs): Principalmente utilizamos dos IDEs para nuestro desarrollo de software. En primer lugar, IntelliJ IDEA Ultimate, que nos brinda una variedad de herramientas y atajos para los lenguajes y patrones empleados.
+- Herramienta de Colaboración y registro de versiones : GitHub.
 
-Esta configuración de nuestro entorno de desarrollo de software es esencial para asegurar la eficiencia en el trabajo, la colaboración efectiva y el éxito en la entrega de nuestros productos y servicios.
+Estas herramientas ayudaron a tener un buen desempeño gracias a sus atajos y también la subsanación de errores.
 ### 5.1.2. Source Code Management
-Nosotros usaremos el GitHub para poder tener una mejor organización y control del desarrollo de nuestro proyecto, de la cual tiene como nombre como “[OpenSource-Grupo4](https://github.com/SI729-2302-WX52-Grupo-4/OpenSource-Grupo4/tree/main)”. En lo siguiente se adjuntará enlaces correspondientes al repositorio.
+Todas los programas trabajados se encuentran en este repositorio (TutorsMe-G5). Tanto Frontent, Backend, landing page e informe.
 
-|**Solución**|**Nombre del repositorio**|**Enlace**|
-| :-: | :-: | :-: |
-|Landing Page|Tutor'sMe|https://acortar.link/Ctr9V8|
+| **Solución** | **Nombre del repositorio** |**Enlace**|
+|:------------:|:--------------------------:| :-: |
+| Landing Page |          Landing           |https://github.com/TutorsMe-G5/LandingPage|
+|   Backend    |          Backend           |https://github.com/TutorsMe-G5/Backend|
+|   FrontEnd   |          FrontEnd          |https://github.com/TutorsMe-G5/FrontEnd|
+
 ### 5.1.3. Source Code Style Guide & Conventions
+Se respetan las convenciones para el nombrado de tablas, objetos o propiedades. Sea el snake_case, cameCase o PascalCase.
+También se sigue la distribución de carpetas por bounded context y se respetan los controladores para cada entidad.
+Esta vez no he seguido una gestión de rama ya que solo había un integrante en el grupo, sin embargo, la organización por commits frecuentes fue de gran ayuda durante la creación del FrontEntYBackEnd.
 ### 5.1.4. Software Deployment Configuration
 Para tener una óptima visualización de la elaboración de nuestro Landing Page usamos la opción de GitHub llamado GitHub Page para así mostrar cada commit del Landing Page ya desplegado:
 
-Link de la pagina:([pegan aqui el link](https://si729-2302-wx52-grupo-4.github.io/LandingPage/))
+Link de la pagina: https://tutorsme-g5.github.io/LandingPage/
 
 
 ## 5.2. Lading Page, Services & Application Implementations
 ### 5.2.1. Sprint Planning 1
+Reunion con el grupo anterion.
 |**Sprint #**|Sprint 1|
 | :-: | :-: |
 |**Sprint Planning Background**||
@@ -751,58 +757,59 @@ Para este primer Sprint, se utilizó herramientas como Github, y Visual Code par
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1.Sprint Planning 2.
-|**Sprint #**|Sprint 2|
-| :-: | :-: |
-|**Sprint Planning Background**||
-|Date|27/09/2023|
-|Time|22:30 horas|
-|Location|Virtual meeting - Google meet|
-|Prepared By|Manuel Alexis Vargas Quispe|
-|Attendees(to planning meeting)|<p>Giakomo Rodolfo Causso Mariano</p><p>Jesica Rut Jaramillo Almora</p><p>Alessandro Alex Vega Paico</p><p>Manuel Alexis Vargas Quispe</p><p></p>|
-|Sprint 1-1 Review Summary|Se ha alcanzado el éxito en la implementación inicial de la lógica de negocio como una puesta en marcha de nuestros recursos de la aplicación.|
-|Sprint 1-1 Retrospective Summary|Optimización en la asignación de tareas al reflejar los plazos según los puntos de historia.|
-|**Sprint Goal & User Stories**||
-|Sprint 1 Goal|Landing Page Tutor’sMe|
-|Sprint 1 Velocity|Dada las condiciones de ser el primer sprint, el velocity establecido será n.|
-|Sum of Story Points|Para el presente Sprint se decidió un total de n Story Points.|
+| Sprint                           | 2                                                             |
+|----------------------------------|---------------------------------------------------------------|
+| Sprint Planning Background       | develop                                                       |
+| Date                             | 07-11-2023                                                    |
+| Time                             | 6:15 pm                                                       |
+| Location                         | home                                                          |
+| Prepared By                      | Jesica Rut Jaramillo Almora                                   |
+| Attendees(to planning meeting)   | Jesica Rut Jaramillo Almora                                   |
+| Sprint 1-1 Review Summary        | Hacer ahora la seccion de profesores.                         |
+| Sprint 1-1 Retrospective Summary | Mejorar en la distribución y asignación de tiempo por tareas. |
+| Sprint Goal & User Stories       |                                                               |
+| Sprint 1 Goal                    | Landing page finalizado.                                      |
+| Sprint 1 Velocity                | Mejorar.                                                      |
+| Sum of Story Points              | 7                                                             |
 #### 5.2.2.2.Sprint Backlog 2.
+Grupo anterior
 
-| Sprint #   |           |      |                       Sprint 1                       | Sprint 1                                                                                                                                                                                     |                    |                                |        |
-|------------|--------------------|-------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------------|--------|
-| User Story |                    |       |                                             | Work-Item/Tast                                                                                                                                                                               |                    |                                |        |
-| Id         | Title              | Id    | Title                                       | Description                                                                                                                                                                                  | Estimation (hours) | Assigned to                    | Status |
-| US001      | Sección Buscador   | US001 | Búsqueda de tutores                         | Como estudiante de Tutor'sMe, quiero poder buscar profesores por área de estudio y disponibilidad para encontrar rápidamente un tutor que se adapte a mis necesidades y horarios de estudio. | 5                  | Manuel Alexis Vargas Quispe    | Done   |
-| US003      | Sección Inicio     | US003 | Visualización de Disponibilidad de Horarios | Como estudiante, quiero ver la disponibilidad de horarios de los tutores en un formato de calendario, para que pueda programar clases de acuerdo a mi agenda.                                | 5                  | Jesica Rut Jaramillo Almora    | Done   |
-| US023      | Sección Profesores | US023 | Visualización de Perfiles Destacados        | Como estudiante, quiero ver perfiles destacados de tutores altamente calificados o populares en la plataforma, para facilitar la elección de un tutor.                                       | 5                  | Alessandro Alex Vega Paico     | Done   |
-| US005      | Sección Sesiones   | US005 | Seguimiento del Progreso                    | Como estudiante, quiero tener acceso a un seguimiento de mi progreso en las clases, incluyendo registros de asistencia y notas, para evaluar mi rendimiento y el impacto del tutor.          | 5                  | Giakomo Rodolfo Causso Mariano | Done   |
+| Sprint #   | Sprint 2           | Sprint 2 |                                                   |                                                                                  |                   |                  |        |
+|------------|--------------------|----------|---------------------------------------------------|----------------------------------------------------------------------------------|-------------------|------------------|--------|
+| User Story |                    |          |                                                   | Work-Item/Tast                                                                   |                   |                  |        |
+| Id         | Title              | Id       | Title                                             | Description                                                                      | Estimation(hours) | Assigned to      | Status |
+| US023      | Sección Profesores | US001    | Ver rating de puesto por sus alumnos              | Como docente quiero ver las calificaciones anobimas calculadas por mis alumnos   | 2                 | Jesica Jaramillo | Done   |
+| US010      | Sección LogIn      | US003    | Ingresar a la aplicación con correo y contraseña. | Como usuario docente quiero ingregar a mi plataforma con mi correo y contraseña. | 4                 | Jesica Jaramillo | Done   |
+| US008      | Sección Perfil     | US003    | Ver datos de perfil actual.                       | Como usuario docente quero ver mis datos ingresados en la aplicacion.            | 4                 | Jesica Jaramillo | Done   |
 #### 5.2.2.3.Development Evidence for Sprint Review.
 
-| Repository   | Branch                      | Commit id                                | Commit Message       | Commit Message Body                        | Commited on (date) |
-|--------------|-----------------------------|------------------------------------------|----------------------|--------------------------------------------|--------------------|
-| TutorsMe_WEB | develop                     | d77016fa97a79410b8f30d6733be7ada94f7f1c8 | feat: Update         | update/inicio                              | 30/09/2023         |
-| TutorsMe_WEB | feature/Profesores          | 4aa326d01e19d96e6f7cda8a54bb25a4ff9ccfe1 | feat: Update         | new                                        | 29/09/2023         |
-| TutorsMe_WEB | feature/inicio              | d82110313340fd366faa843f7b2a54d65d4d70e9 | feat: Correct errors | Merge branch 'develop' into feature/inicio | 30/09/2023         |
-| TutorsMe_WEB | feature/profesoresFavoritos | 490d235b58bbbe5fe91af12c97acccc9f876803d | feat: Update changes | Subiending                                 | 30/09/2023         |
-| TutorsMe_WEB | feature/sesiones            | e765f873bae5f5b2b38f7c8f37b82a208a7a7e7f | feat: Add sessions   | NEW Sesiones                               | 29/09/2023         |
+[![commits.png](https://i.postimg.cc/Gp2pcqLd/commits.png)](https://postimg.cc/G4WRKPT5)
 #### 5.2.2.4.Testing Suite Evidence for Sprint Review.
-No se realizaron tests durante esta entrega.
+http://localhost:8091/students
+[![students.png](https://i.postimg.cc/pLyTvsXx/students.png)](https://postimg.cc/yD4BXXZr)
+
+http://localhost:8091/teachers
+[![teachers.png](https://i.postimg.cc/B65ZpyN5/teachers.png)](https://postimg.cc/YG9wqd5j)
+
+http://localhost:8091/reviews
+[![reviews.png](https://i.postimg.cc/1tKPwF5J/reviews.png)](https://postimg.cc/34WPHdGv)
+
 #### 5.2.2.5.Execution Evidence for Sprint Review.
+
+Deploy de Landing Page: Se uso Github Pages: https://tutorsme-g5.github.io/LandingPage/
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 En esta sección se presentarán los endpoints creados para el Sprint (JSON):
-- appointments
+- reviews
 - students
-- classes
+- teachers
   A continuación se presenta la estructura de los endpoints de esta entrega:
-  [![e1.png](https://i.postimg.cc/zG77zWRG/e1.png)](https://postimg.cc/fV3m5VKG)
-  [![e2.png](https://i.postimg.cc/d00BL18m/e2.png)](https://postimg.cc/YvJgPtDh)
-  [![e3.png](https://i.postimg.cc/6Q1hRXcs/e3.png)](https://postimg.cc/nsB7bNNT)
+  https://postimg.cc/gallery/jCkYpYk
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 Esta entrega no fue desplegada.
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 Para esta sección, se explica cómo se desarrollaron las actividades de implementación adjuntando los analíticos de GitHub.
-Link: https://github.com/SI729-2302-WX52-Grupo-4/TutorsMe_WEB/pulse
+Link: [![mis-Commits.png](https://i.postimg.cc/NFJK8SfJ/mis-Commits.png)](https://postimg.cc/LgP42yPL)
 
-[![colab-Insights1.png](https://i.postimg.cc/fyLFhNKB/colab-Insights1.png)](https://postimg.cc/mzvVQKKH)
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 #### Introducción general:
